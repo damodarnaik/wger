@@ -38,3 +38,4 @@ djangorestframework-simplejwt[crypto]==5.2.2
 # Not used anymore, but needed because some modules are imported in DB migration
 # files
 django-sortedm2m~=3.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
