@@ -8,7 +8,7 @@
 # docker build --tag wger/base .
 #
 
-FROM ubuntu:22.04
+FROM ubuntu:kinetic
 
 LABEL maintainer="Roland Geider <roland@geider.net>"
 
